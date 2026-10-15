@@ -3,6 +3,36 @@ Release history
 ===============
 
 
+v4.10.0 (2026-10-15)
+====================
+
+Bug Fixes
+---------
+
+* **s3**: Remote s3 zip64 files read support (`#2389`_, `932db4f`_)
+
+Documentation
+-------------
+
+* Links to rioxarray api ref update (`#2391`_, `8401cb5`_)
+
+Features
+--------
+
+* **cli**: Add queryables command (`#2383`_, `7ee8007`_)
+
+* **queryables**: QueryablesDict.get_model_json_schema method (`#2358`_, `1d6d9b0`_)
+
+.. _#2358: https://github.com/CS-SI/eodag/pull/2358
+.. _#2383: https://github.com/CS-SI/eodag/pull/2383
+.. _#2389: https://github.com/CS-SI/eodag/pull/2389
+.. _#2391: https://github.com/CS-SI/eodag/pull/2391
+.. _1d6d9b0: https://github.com/CS-SI/eodag/commit/1d6d9b0cf376ba4a8362758e9666dd9450b70459
+.. _7ee8007: https://github.com/CS-SI/eodag/commit/7ee80074357ec3c8435a24790781a7fb72b8bd65
+.. _8401cb5: https://github.com/CS-SI/eodag/commit/8401cb525e02e891665731192949f5065a51b23e
+.. _932db4f: https://github.com/CS-SI/eodag/commit/932db4f3700664beb96ea3295ea55129515f674b
+
+
 v4.9.2 (2026-10-07)
 ===================
 
